@@ -11,5 +11,3 @@
 # Примеры пользования
 ![Пример использования бота](https://sun9-56.userapi.com/NAfdWG6JE3yyc_1-HCqsDH2gX2FsHubpoXjhKw/BwtXW4HOOtI.jpg)
 
-# Где можно пощупать?
-[Вот тут](http://t.me/PodcatConverterBot)
