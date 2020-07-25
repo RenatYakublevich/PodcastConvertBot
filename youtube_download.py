@@ -1,5 +1,4 @@
-from pytube import YouTube
-import pytube
+from pytube_build import YouTube
 import os
 from moviepy.editor import *
 from datetime import datetime
@@ -20,3 +19,5 @@ def convert_mp4_to_mp3(filename):
     ''' Функция для конвертирования mp4 файла в mp3 '''
     video = VideoFileClip(os.path.join("videos/",f"{str(filename)}.mp4"))
     video.audio.write_audiofile(os.path.join('videos',f'{str(filename)}.mp3'))
+
+download_from_youtube('https://www.youtube.com/watch?v=pbaFPPDq3eI','pizza')
